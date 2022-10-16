@@ -24,7 +24,11 @@
  */
 
 // Finish the code of the function
-function exercise05() {}
+function exercise05(array) {
+    const [day1, day2="DEFAULT", day3]= array
+    return day2;
+    
+}
 
 // Don’t change the code bellow this line
 export default exercise05;

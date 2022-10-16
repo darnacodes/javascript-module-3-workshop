@@ -17,7 +17,10 @@
  */
 
 // Finish the code of the function
-function exercise04() {}
+function exercise04(arrayA) {
+    let [first, second, third]= arrayA;
+    return second;
+}
 
 // Don’t change the code bellow this line
 export default exercise04;
